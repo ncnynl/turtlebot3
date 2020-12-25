@@ -2,6 +2,28 @@
 Changelog for package turtlebot3_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.4 (2020-09-29)
+------------------
+* Package info updated
+* Contributors: Will Son
+
+1.2.3 (2020-03-03)
+------------------
+* none
+
+1.2.2 (2019-08-20)
+------------------
+* none
+
+1.2.1 (2019-08-20)
+------------------
+* Added turtlebot3_remote.launch to turtlebot3_model.launch `#389 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/389>`_
+* Contributors: Jonathan Hechtbauer, Gilbert
+
+1.2.0 (2019-01-22)
+------------------
+* none
+
 1.1.0 (2018-07-23)
 ------------------
 * added bringup to load multiple robot simply #251

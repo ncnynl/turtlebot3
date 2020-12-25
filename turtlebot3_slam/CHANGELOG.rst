@@ -2,6 +2,30 @@
 Changelog for package turtlebot3_slam
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.4 (2020-09-29)
+------------------
+* Package info updated
+* Contributors: Will Son
+
+1.2.3 (2020-03-03)
+------------------
+* Added turtlebot3_manipulation_slam.launch for TurtleBot3 SLAM with OpenMANIPULATOR
+* Contributors: Will Son
+
+1.2.2 (2019-08-20)
+------------------
+* none
+
+1.2.1 (2019-08-20)
+------------------
+* Fixed ROS_ASSERT bug `#416 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/416>`_
+* Contributors: ant, Ryan Shim, Kayman
+
+1.2.0 (2019-01-22)
+------------------
+* modified rosdep `#342 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/342>`_
+* Contributors: Steven Macenski, Darby Lim
+
 1.1.0 (2018-07-23)
 ------------------
 * added bringup to load multiple robot simply #251

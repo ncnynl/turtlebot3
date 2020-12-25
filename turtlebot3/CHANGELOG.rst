@@ -2,6 +2,42 @@
 Changelog for package turtlebot3
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.4 (2020-09-29)
+------------------
+* Package info updated
+* Contributors: Will Son
+
+1.2.3 (2020-03-03)
+------------------
+* Updated inertial data in turtlebot3_waffle_for_open_manipulator.urdf.xacro, turtlebot3_waffle_pi_for_open_manipulator.urdf.xacro
+* Added turtlebot3_manipulation_slam.launch for TurtleBot3 SLAM with OpenMANIPULATOR
+* Contributors: Ryan Shim, Will Son
+
+1.2.2 (2019-08-20)
+------------------
+* Fixed `dwa local planner params` for dwa_local_planner 1.16.2 `#415 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/415>`_
+* This patch only applies to ROS 1 Melodic.
+* Contributors: atinfinity, Kayman
+
+1.2.1 (2019-08-20)
+------------------
+* Fixed typo `#436 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/436>`_
+* Fixed ROS_ASSERT bug `#416 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/416>`_
+* Deleted '/' to sync tf2 `#402 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/402>`_
+* Added turtlebot3_remote.launch to turtlebot3_model.launch `#389 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/389>`_
+* Contributors: Jonathan Hechtbauer, Pallav Bhalla, ant, Ryan Shim, Kayman, Darby Lim, Gilbert, Pyo
+
+1.2.0 (2019-01-22)
+------------------
+* changed math.ceil() operation `#373 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/373>`_
+* fixed TypeError integers
+* fixed read of scanned samples when there isn't 360
+* updated map.yaml `#348 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/348>`_
+* added an additional argument move_forward_only to prohibit backward locomotion in navigation `#339 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/339>`_
+* fixed typo `#280 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/280>`_
+* added windows port `#358 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/358>`_
+* Contributors: Gilbert, Darby Lim, linzhibo, oiz5201618, yoshimalucky, Steven Macenski, Eduardo Avelar, Sean Yen, Pyo
+
 1.1.0 (2018-07-23)
 ------------------
 * added bringup to load multiple robot simply #251
